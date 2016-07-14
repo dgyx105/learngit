@@ -17,6 +17,7 @@ git reset --hard HEAD^ //back to last commit
 
 //撤销修改
 git reset HEAD filename //let filename back form stage to work dict
-git checkout -- filename //drop modif in work dict
+git checkout -- filename //drop modif in work dicta(版本库替换工作区文件)
 
-
+//删除文件
+git rm filename
