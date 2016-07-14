@@ -1,0 +1,22 @@
+git
+
+1.commend
+//全局变量
+git config --global user.name "name"
+git config --global user.emil "emil name"
+
+//初始化工作区
+git init
+
+//提交修改
+git add
+git commit -m "commit msg"
+
+//版本回退
+git reset --hard HEAD^ //back to last commit
+
+//撤销修改
+git reset HEAD filename //let filename back form stage to work dict
+git checkout -- filename //drop modif in work dict
+
+
